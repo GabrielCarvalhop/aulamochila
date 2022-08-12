@@ -1,0 +1,41 @@
+git init = inicializa a pasta como repositorio do git (master) 
+
+rm -r .git = esse comando remove a pasta que está como repositorio no git
+
+git add = esse comando torna o arquivo rastreavel, vai registrar as versoes.
+
+git commit -m  "Adicionei o arquivo primeiro" = esse comando registra as alterações
+Depois disso o arquivo que está com A, ele passa a ficar vazio
+
+git config --global user.name "Eduardo" = troca o nome 
+
+git config --global user.email "eduardoramirezdealmeida@gmail.com" = troca o email
+
+git config --global --replace-all user.email "eduardoramirezdealmeida@gmail.com"
+
+git config --global --replace-all user.name "Eduardo"
+
+git log = mostra os comentaários e as versões 
+
+git commit -am "Adicionei tudo"= adicona tudo junto e ja salva
+
+git clone: baixa os arquivos do git hub
+
+git push : sobre o arquivo no git hub
+
+git pull : é utilizado para baixar o arquivo que existe conflito do git hub
+
+git branch nomedesejado: utilizamos para criar um ambiente de teste, ele copia tudo que ta no diretório da raiz
+
+git checkout nomedabranch ou master: serve para trocar de master pra branch
+
+
+git remote add origin sua-url: serve para setar sua url do github
+ 
+
+git remote set-url  url-que-vc-quer: serve para setar sua url do github
+
+git merge nome da branch: estando dentro da master ele substitui a master pelo branch
+
+git branch -d  branch_name : exclui branch local
+git push origin --delete branch_name : exclui branch do git hub
